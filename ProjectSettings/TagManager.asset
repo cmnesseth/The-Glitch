@@ -41,3 +41,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 2724419283
+    locked: 0
+  - name: Water
+    uniqueID: 750256143
+    locked: 0
+  - name: Grass
+    uniqueID: 1838311407
+    locked: 0
+  - name: Paths
+    uniqueID: 1645418739
+    locked: 0
+  - name: Characters
+    uniqueID: 2454696471
+    locked: 0
+  - name: Rocks
+    uniqueID: 2840534225
+    locked: 0
+  - name: Shrubs
+    uniqueID: 3599976697
+    locked: 0
+  - name: Trees
+    uniqueID: 1303418997
+    locked: 0
