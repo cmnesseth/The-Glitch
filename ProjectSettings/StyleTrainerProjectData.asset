@@ -61,7 +61,7 @@ MonoBehaviour:
         m_TrainingSetData: []
         m_Name: Default
         m_Description: Default style.
-    - rid: 937905455501410525
+    - rid: 937905603875700737
       type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
       data:
         m_Guid: 5cc104e0-423a-473e-8034-b9d346cb2357
@@ -146,13 +146,662 @@ MonoBehaviour:
           m_ProjectID: 11000000-0000-0000-0000-000000000011
         m_Name: Default
         m_Description: Default Style
+    - rid: 937905604990074880
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 917da407-c947-4cda-aea2-a54e974b4f27
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: 937905604990074881
+        m_Visible: 1
+        selectedCheckPointGUID: fe6afe76-8486-4605-a4a5-90c8e3d8ddf1
+        m_FavoriteCheckPointGUID: fe6afe76-8486-4605-a4a5-90c8e3d8ddf1
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: d56769a9-3dae-4bc2-b9d1-3ad96ba7d23a
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: 2a7beb2c-757d-44d1-82cb-ca9c3c0ae76c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2a7beb2c-757d-44d1-82cb-ca9c3c0ae76c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: ff94ae5a-3d0b-4082-a1b2-f07f0eb59983
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ff94ae5a-3d0b-4082-a1b2-f07f0eb59983
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: 0f43dca4-6a76-4a9b-9341-d0615df103af
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 0f43dca4-6a76-4a9b-9341-d0615df103af
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: 94579802-fd84-455a-977a-42a7e4f4d1f2
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 94579802-fd84-455a-977a-42a7e4f4d1f2
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 200
+        - m_Guid: edfbd7fe-7f93-4987-949a-9d169e7967d8
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: 2799fee7-9fb5-45c3-9f8e-e7416c47234e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2799fee7-9fb5-45c3-9f8e-e7416c47234e
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: bf2556a6-dfd9-4a91-918a-c4992c89a0c5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: bf2556a6-dfd9-4a91-918a-c4992c89a0c5
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: 736550b3-c571-48ec-808f-bc4fa8e65a1b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 736550b3-c571-48ec-808f-bc4fa8e65a1b
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: 3d5fcc8e-ca14-4c1d-95ee-5b1b1773c1ac
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 3d5fcc8e-ca14-4c1d-95ee-5b1b1773c1ac
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 400
+        - m_Guid: 5486fbbd-5b72-438a-9365-ca54462a04f3
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: 5906f867-f4d9-4d0f-9e30-5c0450a5f887
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 5906f867-f4d9-4d0f-9e30-5c0450a5f887
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: 04bd61f4-dfb5-4764-9013-a0e9699f2339
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 04bd61f4-dfb5-4764-9013-a0e9699f2339
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: 97f637ee-2293-4400-9b9a-cfa910a077f9
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 97f637ee-2293-4400-9b9a-cfa910a077f9
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: 3ee77481-1d9e-4c6c-816d-2f08ba25568d
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 3ee77481-1d9e-4c6c-816d-2f08ba25568d
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 600
+        - m_Guid: 1b8df062-a7cd-491a-a916-7c6313efa3bc
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: 9d5fb933-14eb-42e9-9477-8010adf7d68f
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 9d5fb933-14eb-42e9-9477-8010adf7d68f
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: e6e0e8b1-1efa-4504-9e4f-dfbaf27a7574
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e6e0e8b1-1efa-4504-9e4f-dfbaf27a7574
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: 6b4a9640-5327-4c60-b410-f21d14624bbc
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 6b4a9640-5327-4c60-b410-f21d14624bbc
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: a2943f02-e957-4700-9781-bef36f41c7fa
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: a2943f02-e957-4700-9781-bef36f41c7fa
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 800
+        - m_Guid: c9f3ccf7-5774-403c-9174-620f6d201838
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: 4ea64385-4351-42b0-8ebd-31fd5570ae97
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4ea64385-4351-42b0-8ebd-31fd5570ae97
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: d261cb9d-eb08-4839-868f-3684920c22ae
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: d261cb9d-eb08-4839-868f-3684920c22ae
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: 132e13f9-13fc-4bc3-a2d9-83bc60593976
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 132e13f9-13fc-4bc3-a2d9-83bc60593976
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: d750e5d7-d4bd-4f4e-99dc-4b38106ae469
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: d750e5d7-d4bd-4f4e-99dc-4b38106ae469
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 1000
+        - m_Guid: 1ea38a12-dd69-407a-98da-ffac4148c67d
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: a9133e73-da2c-470c-8ca5-e8a3679806b7
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: a9133e73-da2c-470c-8ca5-e8a3679806b7
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: 0493c2c8-7567-4aca-af50-cf413c065a5c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 0493c2c8-7567-4aca-af50-cf413c065a5c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: 3cd82069-40d5-46de-946f-46dc6bb17112
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 3cd82069-40d5-46de-946f-46dc6bb17112
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: cb6eb5cc-9a3e-451f-a51e-3a4119420961
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: cb6eb5cc-9a3e-451f-a51e-3a4119420961
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 1200
+        - m_Guid: 05a2957b-78ee-400b-a0cd-eac0bcaa1616
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: 8fdeec13-bd36-46eb-b07b-a894912ad897
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 8fdeec13-bd36-46eb-b07b-a894912ad897
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: 4073d4e5-d168-448f-9b95-10ad860314f7
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4073d4e5-d168-448f-9b95-10ad860314f7
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: eeaaadcb-8b67-4167-9906-71931164ff27
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: eeaaadcb-8b67-4167-9906-71931164ff27
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: 774a8f4d-01c1-471b-95f5-4233cc9c6a6c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 774a8f4d-01c1-471b-95f5-4233cc9c6a6c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 1400
+        - m_Guid: 70a0e93a-f6ca-4823-8aeb-faa691c3b21d
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: ece6659b-7263-4602-af99-c4c52f970d3d
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ece6659b-7263-4602-af99-c4c52f970d3d
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: 90e605b4-556c-4fe5-b819-3f1850153de4
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 90e605b4-556c-4fe5-b819-3f1850153de4
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: 53e56f8d-cf8c-43af-898d-c4ebbbb8674a
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 53e56f8d-cf8c-43af-898d-c4ebbbb8674a
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: b4fc1d35-d5d1-443c-81d2-0714e9db5375
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: b4fc1d35-d5d1-443c-81d2-0714e9db5375
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 1600
+        - m_Guid: a196c3c8-e17b-4947-81a7-50c6f04c9275
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: b0ab8a0e-7bbb-483c-9767-3faa33c6d507
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: b0ab8a0e-7bbb-483c-9767-3faa33c6d507
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: dcf71ed2-42c7-4b29-a039-41aa44985321
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: dcf71ed2-42c7-4b29-a039-41aa44985321
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: d1f267d3-b1f2-42c9-9151-c359c04d286f
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: d1f267d3-b1f2-42c9-9151-c359c04d286f
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: 020985da-c3d5-4077-8347-26588cc51217
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 020985da-c3d5-4077-8347-26588cc51217
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 1800
+        - m_Guid: fe6afe76-8486-4605-a4a5-90c8e3d8ddf1
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_Name: Character Style
+          m_Description: Generate character sprites for the wandering glitch
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+          m_ValidationImagesData:
+          - m_Guid: 1b999915-a031-4b0f-b32f-a2c10adab2d7
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 1b999915-a031-4b0f-b32f-a2c10adab2d7
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character, multiple poses and expressions, 100% white background,
+              simple, hand-painted style, full body, 2d game sprites for unity
+          - m_Guid: 960cfca4-df97-4a57-9665-839e65c53d39
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 960cfca4-df97-4a57-9665-839e65c53d39
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d character sprite, seated, standing, walk cycle
+          - m_Guid: 4106acdd-bc3c-46fe-9641-d9e8f7b37f47
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4106acdd-bc3c-46fe-9641-d9e8f7b37f47
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: character sprite sheet
+          - m_Guid: e8e0c3bc-a620-477f-9672-d38415a455cb
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e8e0c3bc-a620-477f-9672-d38415a455cb
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: 2d sprite sheet, person, character
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts:
+        - character, multiple poses and expressions, 100% white background, simple,
+          hand-painted style, full body, 2D game sprites for Unity
+        - 2D character sprite, seated, standing, walk cycle
+        - character sprite sheet
+        - 2D sprite sheet, person, character
+        m_TrainingSetData:
+        - m_Guid: 1cd63289-0d76-47d5-83ec-e66161192f34
+          m_State: 5
+          m_Disposing: 0
+          m_TrainingSet:
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074882
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074883
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074884
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074885
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074886
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074887
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074888
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074889
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074890
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074891
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074892
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 937905604990074893
+          m_ProjectID: 329df5d1-691a-4654-b1ad-949f5278d91e
+        m_Name: Character Style
+        m_Description: Generate character sprites for the wandering glitch
+    - rid: 937905604990074881
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 3
+        m_Disposing: 0
+    - rid: 937905604990074882
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-c2da9cde-9eff-46f3-a20a-22a05689d1d0
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074883
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-c218c9fe-9474-474e-9b10-04feabc689bc
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074884
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-2b40bfbe-ffa0-4523-9b89-62d515a99007
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074885
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-ef19dfe9-1110-4bfc-b2a8-9bf41929a7a7
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074886
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-a05a8f15-22bc-4d4b-9649-2d40c219db78
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074887
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-c4a7fa66-9c2f-4149-ad59-1d94eda1179e
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074888
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-2b97d435-839c-40d1-b8a2-75c31ed35574
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074889
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-dd382e17-30e5-4f56-ab58-fd83dff338fa
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074890
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-e0979659-fe29-4962-90be-af58ce3efcc0
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074891
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-3bba7cee-ff49-4f52-85b9-716dbd3663e8
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074892
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-be8e609f-9eb5-4135-ae7f-678191c86086
+        m_State: 3
+        m_Disposing: 1
+    - rid: 937905604990074893
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-f5b8a6d8-890f-40f1-8446-6248f4f634ae
+        m_State: 3
+        m_Disposing: 1
     - rid: 6078337373447913472
       type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
       data:
         m_Guid: 329df5d1-691a-4654-b1ad-949f5278d91e
         m_State: 1
         m_Disposing: 0
-        m_Styles: []
+        m_Styles:
+        - rid: 937905604990074880
         m_Version: 202231001
     - rid: 6078337373447913473
       type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
@@ -161,5 +810,5 @@ MonoBehaviour:
         m_State: 1
         m_Disposing: 0
         m_Styles:
-        - rid: 937905455501410525
+        - rid: 937905603875700737
         m_Version: 202231001
