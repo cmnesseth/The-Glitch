@@ -12,7 +12,7 @@ public class RandomSpriteAnimator : MonoBehaviour
 
     private SpriteRenderer spriteRenderer; // Reference to the Sprite Renderer component
 
-    private void Start()
+    private void OnEnable()
     {
         // Get the Sprite Renderer component
         spriteRenderer = GetComponent<SpriteRenderer>();

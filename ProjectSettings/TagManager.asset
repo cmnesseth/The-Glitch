@@ -54,15 +54,18 @@ TagManager:
   - name: Paths
     uniqueID: 1645418739
     locked: 0
-  - name: Characters
-    uniqueID: 2454696471
+  - name: Shrubs
+    uniqueID: 3599976697
+    locked: 0
+  - name: Tree trunks
+    uniqueID: 1303418997
     locked: 0
   - name: Rocks
     uniqueID: 2840534225
     locked: 0
-  - name: Shrubs
-    uniqueID: 3599976697
+  - name: Characters
+    uniqueID: 2454696471
     locked: 0
-  - name: Trees
-    uniqueID: 1303418997
+  - name: Tree Canopy
+    uniqueID: 3389945685
     locked: 0

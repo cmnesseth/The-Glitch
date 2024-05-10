@@ -9,10 +9,13 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5.0f;
+    public float accelerationTime = 1.0f;
     private Rigidbody2D rb;
     private PlayerInput playerInput;
     private Vector2 move;
+    private bool movementAllowed = true; 
 
+    
     void Start()
     {
         // Get the Rigidbody2D and PlayerInput components
@@ -29,6 +32,10 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Apply the input to the Rigidbody2D for physics-based movement
-        rb.velocity = move * moveSpeed;
+
+        rb.velocity =Vector2.Lerp
+            (move * (moveSpeed * 0.5f),
+            move * moveSpeed,
+            accelerationTime);
     }
 }

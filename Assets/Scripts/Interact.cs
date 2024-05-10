@@ -1,33 +1,38 @@
-// 5/9/2024 AI-Tag
+// 5/10/2024 AI-Tag
 // This was created with assistance from Muse, a Unity Artificial Intelligence product
 
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Interact : MonoBehaviour
 {
     private Animator animator;
-    private InputAction interactAction;
 
-    private void Awake()
+    void Start()
     {
-        // Reference to the Animator component
+        // Get the Animator component
         animator = GetComponent<Animator>();
-
-        // Setup the Interact input action
-        interactAction = new InputAction(type: InputActionType.Button, binding: "<Keyboard>/e");
-        interactAction.performed += ctx => Interaction();
-        interactAction.Enable();
     }
 
-    private void Interaction()
+    private void OnEnable()
     {
-        // Trigger your animation here
-        animator.SetTrigger("Interact");
+        //TriggerSmallPixelPop();
     }
 
-    private void OnDisable()
+
+    void Update()
     {
-        interactAction.Disable();
+        // Check for the "E" key press
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            TriggerSmallPixelPop();
+
+        }
+    }
+
+
+    void TriggerSmallPixelPop()
+    {
+        // Set a trigger parameter to start the animation
+        animator.SetTrigger("smallPixelPop");
     }
 }
